@@ -12,6 +12,14 @@ function capitalize(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
+function punctuation() {
+    let seed = Math.random();
+    if (seed < 0.1) return "!";
+    if (seed < 0.3) return "?";
+    if (seed < 0.35) return "...";
+    return ".";
+}
+
 exports.sentence = function() {
     let count = Math.floor(Math.random() * 9);
     // Add root word
