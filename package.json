@@ -1,0 +1,27 @@
+{
+  "name": "markipsum",
+  "version": "1.0.0",
+  "description": "Bask in the color",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErikBoesen/markipsum.git"
+  },
+  "keywords": [
+    "lorem",
+    "ipsum",
+    "mark",
+    "xu",
+    "lipsum",
+    "filler"
+  ],
+  "author": "Erik Boesen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErikBoesen/markipsum/issues"
+  },
+  "homepage": "https://github.com/ErikBoesen/markipsum#readme"
+}
