@@ -1,6 +1,6 @@
 words = [
     "nuts", "simply", "meme review", "bask", "the colors", "that pill be looking fine", "the", "is",
-    "arsenic", "poisoning", "remarkable", "Mark", "sticker", "brand", "lifestyle", "philosopher", "designer",
+    "arsenic", "poisoning", "remarkable", "Mark", "Xu", "sticker", "brand", "lifestyle", "philosopher", "designer",
     "programmer", "first", "second", "third", "beautiful",
 ];
 
@@ -16,7 +16,7 @@ function punctuation() {
     let seed = Math.random();
     if (seed < 0.1) return "!";
     if (seed < 0.3) return "?";
-    if (seed < 0.35) return "...";
+    if (seed < 0.35) return "....";
     return ".";
 }
 
@@ -34,4 +34,12 @@ exports.sentence = function() {
     return string;
 };
 
-console.log(exports.sentence());
+exports.paragraph = function(sentences = 8) {
+    paragraph = exports.sentence();
+    for (let sentence = 1; sentence < sentences; sentence++) {
+        paragraph += " " + exports.sentence();
+    }
+    return paragraph;
+}
+
+console.log(exports.paragraph());
