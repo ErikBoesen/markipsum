@@ -1,7 +1,7 @@
 words = [
     "nuts", "simply", "meme review", "bask", "the colors", "that pill be looking fine", "the", "is",
-    "arsenic", "poisoning", "remarkable", "mark", "sticker", "brand", "lifestyle", "philosopher", "designer",
-    "programmer", "first", "second", "third",
+    "arsenic", "poisoning", "remarkable", "Mark", "sticker", "brand", "lifestyle", "philosopher", "designer",
+    "programmer", "first", "second", "third", "beautiful",
 ];
 
 exports.word = function() {
