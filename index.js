@@ -41,5 +41,3 @@ exports.paragraph = function(sentences = 8) {
     }
     return paragraph;
 }
-
-console.log(exports.paragraph());
