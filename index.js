@@ -1,7 +1,8 @@
 words = [
     "nuts", "simply", "meme review", "bask", "the colors", "that pill be looking fine", "the", "is",
-    "arsenic", "poisoning", "remarkable", "Mark", "Xu", "sticker", "brand", "lifestyle", "philosopher", "designer",
-    "programmer", "first", "second", "third", "beautiful",
+    "arsenic poisoning", "remarkable", "Mark", "Xu", "sticker", "brand", "lifestyle", "philosopher", "designer",
+    "programmer", "first", "second", "third", "beautiful", "vampire", "wants", "and", "the sauce", "sauce", "lost in", "don't get", "worms and bugs",
+    "high in protein", "delicious when fried", "wokable", "drips", "hard", "drips hard", "P&G water packets", "river",
 ];
 
 exports.word = function() {
