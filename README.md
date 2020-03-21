@@ -28,4 +28,4 @@ mark.paragraph(3) // => First, that pill be looking fine, lost in the sauce! Mar
 ```
 
 ## Authorship
-Made with ❤ at [Schoology](https://schoology.com)
+Made by [Erik Boesen](https://github.com/ErikBoesen) with ❤ at [Schoology](https://schoology.com)
