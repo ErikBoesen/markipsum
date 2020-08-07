@@ -27,5 +27,8 @@ mark.paragraph(); // => Arsenic poisoning lost in the sauce! Designer. And don't
 mark.paragraph(3) // => First, that pill be looking fine, lost in the sauce! Mark, the colors, beautiful beautiful. Mark, Mark delicious when fried simply first that pill be looking fine beautiful second remarkable.
 ```
 
+## License
+[MIT](LICENSE)
+
 ## Authorship
 Made by [Erik Boesen](https://github.com/ErikBoesen) with ❤ at [Schoology](https://schoology.com)
